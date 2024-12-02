@@ -25,7 +25,7 @@ void calculate_distance(int n, double *x1, double *x2, double *y1, double *y2, d
 extern void calculateDist(int n, double *x1, double *x2, double *y1, double *y2, double *z);
 
 int main(){
-	int n = 268435456;
+	int n = 1048576;
     double *x1 = (double*)malloc(n*sizeof(double));
     double *x2 = (double*)malloc(n*sizeof(double));
     double *y1 = (double*)malloc(n*sizeof(double));
